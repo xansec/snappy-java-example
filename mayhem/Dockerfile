@@ -14,4 +14,4 @@ RUN gradle shadowJar
 FROM cifuzz/jazzer:latest
 
 COPY --from=builder /snappyfuzz/targets/build/libs/targets-all.jar /snappy-fuzz.jar
-COPY ./dicts/jpeg.dict /dictionaries
+COPY ./dicts/jpeg.dict /dictionaries/jpeg.dict
