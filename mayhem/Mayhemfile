@@ -1,6 +1,6 @@
 project: snappy-java
-target: snappy-jazzer
-image: ghcr.io/xansec/snappy-fuzz:jazzer
+target: jazzer
+image: ghcr.io/xansec/snappy-java:jazzer
 duration: 120
 cmds:
   - cmd: /app/jazzer --cp=/snappy-fuzz.jar --target_class=com.forallsecure.snappy_fuzz.SnappyFuzz
