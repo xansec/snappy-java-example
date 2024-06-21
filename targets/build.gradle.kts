@@ -17,7 +17,7 @@
 
 
  dependencies {
-     implementation(files("../build/libs/snappy-java.jar"))
+     implementation("org.xerial.snappy:snappy-java:1.1.10.1")
      implementation("com.code-intelligence:jazzer-junit:0.22.1")
      implementation("com.code-intelligence:jazzer-api:0.22.1")
  }
