@@ -1,7 +1,7 @@
 project: snappy-java
 target: jazzer
 image: ghcr.io/xansec/snappy-java:jazzer
-duration: 120
+duration: 1200
 cmds:
   - cmd: /app/jazzer --cp=/snappy-fuzz.jar --target_class=com.forallsecure.snappy_fuzz.SnappyFuzz
     dictionary: /dictionaries/jpeg.dict
